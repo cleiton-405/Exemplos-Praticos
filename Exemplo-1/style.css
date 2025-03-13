@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(to top, #22577A, #38A3A5, #57CC99, #80ED99, #C7F9CC);
+    background-attachment: fixed;
+}
+
+main h1, h2, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: gray;
+}
+
+main p{
+    text-indent: 4rem;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: red;
+}
+
+:root{
+    font-size: 100%;
+}
+
+.imagem{
+    height: 395px;
+    width: 100%;
+
+    background-image: url('https://plus.unsplash.com/premium_photo-1675237625141-0bfadb4d6836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8fA%3D%3D');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

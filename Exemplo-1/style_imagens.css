@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to top, #22577A, #38A3A5, #57CC99, #80ED99, #C7F9CC);
+    background-attachment: fixed;
+}
+
+main h1, h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: gray;
+}
+
+main p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.seta{
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px gray inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
